@@ -1,0 +1,39 @@
+.postList {
+    margin-inline: 100px;
+    display: flex;
+    flex-wrap: wrap; /* 카드들이 화면에 맞춰 여러 줄로 배치 */
+    justify-content: space-between; /* 각 카드들 간격을 일정하게 배치 */
+}
+
+.postBox {
+    width: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+.postIMG {
+    width: 263px;
+    height: auto;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+    object-fit: cover; /* 이미지를 비율에 맞게 자르기 */
+    transition: transform 0.3s; /* hover 효과를 위한 transition */
+}
+
+.postTitle {
+    margin-inline: 10px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.postNick {
+    margin-inline: 10px;
+    text-align: left;
+}
+
+.postIMG:hover {
+    background-color: black; 
+    opacity: 0.5;
+}
