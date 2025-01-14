@@ -1,0 +1,59 @@
+.commentBox{
+    width: 100%;
+}
+
+.commentList {
+    margin-top: 20px;
+}
+
+.commentItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profContainer {
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+.commProfile {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.commNick {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.currentUser {
+    align-items: flex-end;
+    background-color: #f0f8ff; /* 본인 댓글 배경 */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.otherUser {
+    align-items: flex-start;
+    background-color: #fff; /* 다른 사용자 댓글 배경 */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.commentText {
+    display: inline-block; /* 글자 길이에 맞춰 줄어듦 */
+    max-width: 80%; /* 최대 너비 제한 */
+    word-wrap: break-word; /* 긴 단어 줄바꿈 */
+    padding: 10px 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+

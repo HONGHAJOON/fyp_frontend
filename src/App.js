@@ -5,13 +5,14 @@ import Header from './resource/Header';
 import Postlist from './resource/Postlist';
 import PostDetail from './resource/PostDetail';
 import UserProfile from "./resource/UserProfile";
+import CreatePost from './resource/CreatePost';
 
 function App() {
 
   return (
+    <Router>
     <div className="App">
       <Header/>
-      <Router>
         <Routes>
           {/* Home 라우트 */}
           <Route path="/" element={<Postlist />} />
@@ -21,9 +22,11 @@ function App() {
 
           {/* 회원 프로필 라우트 */}
           <Route path="/:nick" element={<UserProfile />} />
-        </Routes>
-      </Router>
+
+          <Route path="/create-page" element={<CreatePost />} />
+        </Routes> 
     </div>
+    </Router>
   );
 }
 

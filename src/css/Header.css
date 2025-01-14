@@ -15,18 +15,38 @@
     /* position: absolute; */
 }
 
-.searchBar{
-    
+/* .searchBar{
     width: 80%;
     height: 50px;
     margin: 0 10px;
     border-radius: 20px;
+    font-size: 16px;
     background-color: #F3F3F3;
     display: flex;
     align-items: center;
-    padding: 0 20px; /* 내부 여백 추가 */
+    padding: 0 20px;
     box-sizing: border-box;
-    transition: background-color 0.3s; /* 부드러운 색상 전환 */
+    transition: background-color 0.3s;
+} */
+.searchBar{
+    width: 80%;
+    padding: 10px 15px;
+    margin-right: 5px;
+    font-size: 16px;
+    height: 50px;
+    margin: 0 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+.searchBar:hover::placeholder{
+    color: #fff;
 }
 
 .headerRight{
@@ -59,6 +79,14 @@
     transition: background-color 0.3s; /* 부드러운 색상 전환 */
 }
 
+.headerProfile {
+    width: 46px;
+    height: 46px;
+    margin-right: 10px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
 .iconBox {
     width: 46px;
     height: 46px;
@@ -79,5 +107,6 @@
 }
 
 .searchBar:hover {
-    background-color: #b0b0b0; /* Hover 시 배경색 */
+    background-color: #AAAAAA; /* Hover 시 배경색 */
+    transition: background-color 0.3s;
 }
