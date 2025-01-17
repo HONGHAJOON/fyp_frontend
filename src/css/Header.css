@@ -1,11 +1,15 @@
 .header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
     width: 100%;
-    height: 50px;
-    margin : 40px 0;
+    height: 70px;
+    /* margin : 40px 0; */
     display: flex;
     align-items: center;
     justify-content: space-between; /* 좌우 정렬 */
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 .headerLeft{
@@ -15,25 +19,12 @@
     /* position: absolute; */
 }
 
-/* .searchBar{
-    width: 80%;
-    height: 50px;
-    margin: 0 10px;
-    border-radius: 20px;
-    font-size: 16px;
-    background-color: #F3F3F3;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    box-sizing: border-box;
-    transition: background-color 0.3s;
-} */
 .searchBar{
     width: 80%;
     padding: 10px 15px;
     margin-right: 5px;
     font-size: 16px;
-    height: 50px;
+    height: 48px;
     margin: 0 10px;
     border-radius: 20px;
     display: flex;
@@ -58,19 +49,19 @@
 .icon{
     width: 24px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 8px;
     cursor: pointer;
 }
 
 .logoCon{
-    width: 32px;
-    padding: 5px;
+    width: 28px;
+    padding: 6px 6px 7px 7px; /* 위, 오른쪽, 아래, 왼쪽  */
     cursor: pointer;
 }
 
 .logo{
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
     padding: 4px;
     /* border: 3px solid #FFFFFF; */
     border-radius: 30px;
@@ -80,16 +71,16 @@
 }
 
 .headerProfile {
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
     border-radius: 30px;
     object-fit: cover;
 }
 
 .iconBox {
-    width: 46px;
-    height: 46px;
+    width: 40px;
+    height: 40px;
     margin-inline: 5px;
     padding: 4px;
     border-radius: 30px;

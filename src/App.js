@@ -21,7 +21,7 @@ function App() {
           <Route path="/page/:id" element={<PostDetail />} />
 
           {/* 회원 프로필 라우트 */}
-          <Route path="/:nick" element={<UserProfile />} />
+          <Route path="/:id" element={<UserProfile />} />
 
           <Route path="/create-page" element={<CreatePost />} />
         </Routes> 

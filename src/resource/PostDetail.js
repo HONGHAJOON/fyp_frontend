@@ -35,8 +35,8 @@ const PostDetail = () => {
                         </div>
                         <div className="contentRight">
                             <div className="actionBar">
-                                <img src="../icon/heart-3.png" className="actionHeart" style={{marginTop:"2px"}}/>
-                                <img src="../icon/bookmark-3.png" className="actionSave"/>
+                                <img src="../icon/heart-3916579.png" className="actionHeart" />
+                                <img src="../icon/bookmark-3916593.png" className="actionSave"/>
                             </div>
                             {item.title?.trim() && (
                                     <h4 className="contentTitle">{item.title}</h4>

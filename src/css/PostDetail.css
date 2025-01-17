@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 70%;
     margin: 0 auto;
+    margin-top: 80px;
     align-items: center;
     display: flex;
     margin-left: auto;
@@ -55,21 +56,22 @@
 
 .actionHeart{
     padding: 5px;
-    width: 32px;
+    width: 26px;
     cursor: pointer;
 }
 
 .actionSave {
-    padding: 5px;
-    width: 32px;
+    padding-top: 7px;
+    width: 23px;
+    height: 23px;
     cursor: pointer;
 }
 
 .actionHeart:hover{
-    content: url("/public/icon/heart-2.png");
+    content: url("/public/icon/heart-3916580.png");
 }
 .actionSave:hover{
-    content: url("/public/icon/bookmark-4.png");
+    content: url("/public/icon/bookmark-3916594.png");
 }
 
 .contentTitle {
@@ -111,9 +113,10 @@
 
 
 .commentInput {
-    width: 82%;
+    width: 80%;
     padding: 10px 15px;
     margin-right: 5px;
+    float: left;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 20px;
