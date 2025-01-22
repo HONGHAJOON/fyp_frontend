@@ -33,7 +33,8 @@ const Postlist = () => {
     
 
     return (
-        <div style={{ margin: "0 auto",marginTop: "80px" }} className="postList">
+        <div style={{ margin: "0 auto"}} className="postList">
+            {/* <div style={{ marginTop: "80px"}}></div> */}
             <MasonryInfiniteGrid
                 gap={7} // 아이템 간격
                 onRequestAppend={loadMoreItems} // 스크롤 끝에서 호출

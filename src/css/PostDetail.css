@@ -81,6 +81,13 @@
     font-size: 32px;
 }
 
+.content-user-container{
+    display: flex;
+    align-items: center; /* 세로 가운데 정렬 */
+}
+
+.
+
 .contentContext {
     padding-right: 5px;
     padding-bottom: 5px;
@@ -88,6 +95,10 @@
     text-align: left;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+.contentContext p {
+    font-size: 14px;
 }
 
 .contentContext::-webkit-scrollbar{

@@ -1,0 +1,118 @@
+.login-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.login-modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    width: 360px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 30px;
+    background-color: rgb(208, 39, 39);
+}
+
+.login-logocon{
+    width: 28px;
+    padding: 6px 6px 7px 7px; /* 위, 오른쪽, 아래, 왼쪽  */
+}
+
+.login-modal-content h2 {
+    margin-bottom: 20px;
+}
+
+.login-modal-content p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.login-modal-content label {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+
+.login-modal-content input {
+    width: 85%;
+    height: 14px;
+    margin-bottom: 10px;
+    margin-inline: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.login-info {
+    width: 80%;
+    display: inline-block;
+    flex-direction: column;
+}
+
+.button-group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    margin-inline: 5px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #fefefe;
+}
+
+button:hover {
+    filter: brightness(0.9); /* 밝기를 90%로 설정 (어둡게) */
+}
+
+.modal2-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal2-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+}
+
+.link {
+    color: #8a8a8a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.link:hover {
+    filter: brightness(0.3); /* 밝기를 90%로 설정 (어둡게) */
+}

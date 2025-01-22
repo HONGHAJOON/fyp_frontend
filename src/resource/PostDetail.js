@@ -41,8 +41,8 @@ const PostDetail = () => {
                             {item.title?.trim() && (
                                     <h4 className="contentTitle">{item.title}</h4>
                             )}
-                            <div className="profileContainer">
-                                <Link to={`/${item.prof}`} className="profile">
+                            <div className="content-user-container">
+                                <Link to={`/${item.prof}`} className="user-profile">
                                     <img className="profile" src={item.prof} alt="프로필" />
                                 </Link>
                                 <Link to={`/${item.nick}`} className="nickLink">
